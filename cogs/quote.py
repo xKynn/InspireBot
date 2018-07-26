@@ -14,7 +14,7 @@ class Quote:
             lnk = await resp.text()
         emb = Embed(color=Color.dark_blue())
         emb.set_image(url=lnk)
-        emb.set_footer(text='|  Powered by [InspiroBot](http://inspirobot.me)', icon_url='https://i.imgur.com/FDSkzYC.png')
+        emb.set_footer(text='|  Powered by http://inspirobot.me', icon_url='https://i.imgur.com/FDSkzYC.png')
         await ctx.channel.send(embed=emb)
 
 def setup(bot):
