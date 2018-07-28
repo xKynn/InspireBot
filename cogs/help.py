@@ -10,7 +10,8 @@ class Help:
     async def help(self, ctx):
         """ Shows the possible help categories """
         em = discord.Embed(title='Help',
-                           description='The bot only has one command.\n**quote** - Have the inspirobot AI generate a quote for you and post it here.\nPS it also has many aliases/shortcuts for you to find i guess.',
+                           description='**quote** - Have the inspirobot AI generate a quote for you and post it here.\n'
+                                       '**invite** - Get the invite link for the bot if you want to invite it to wherever you want.\nPS. it also has many aliases like `q` for quote.',
                            color=discord.Color.dark_blue())
 
         await ctx.send(embed=em)
